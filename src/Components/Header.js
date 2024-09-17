@@ -13,8 +13,8 @@ const Header = () => {
                 <Navbar />
             </nav>
             <div className="hero-content">
-                <h1 className="hero-title">Katy L. Kane</h1>
-                <h2 className="job-title">Full Stack Developer</h2>
+                <h1 className="hero-title">KATY L. KANE</h1>
+                <h2 className="job-title">FULL STACK DEVELOPER</h2>
             </div>
         </div>
     </section>

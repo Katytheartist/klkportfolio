@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 //import Navbar from './Components/Navbar';
-import { About, Header } from "./Components/index.js";
+import { About, Header, Skills } from "./Components/index.js";
 
 function App() {
   return (
@@ -16,9 +16,18 @@ function App() {
           <div className="section" id="about" data-testid="about">
             <About />
           </div>
+
+          <div>
+            <h2 className="my-skills">
+            SKILLS
+            </h2>
+            <h3 className="my-technologies">SOME TECHNOLOGIES I HAVE WORKED WITH:</h3>
+             <Skills />
+          </div>
+
           <div className="section" id="projects">
             <h2 className="my-projects">
-              My Projects
+              PROJECTS
             </h2>
             <div className="section" data-testid="carousel">
 
@@ -26,7 +35,7 @@ function App() {
           </div>
           <div className="section" id="recommendations" data-testid="recommendations">
             <h2 className="recommendations">
-              Recommendations
+              RECOMMENDATIONS
             </h2>
             
           </div>

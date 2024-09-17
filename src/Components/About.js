@@ -1,6 +1,8 @@
 import React from 'react';
 import './About.css'; 
-import klk1 from './pix/klk1.png'
+import klk1 from './pix/klk1.png';
+import Skills from './Skills';
+
 
 function About() {
     const underlineStyle = {
@@ -29,17 +31,19 @@ function About() {
         />
         </div>
         <div className='about-text-container'>
-        <h2 className="my-name">Katy L. Kane</h2>
+        <h2 className="my-name">KATY L. KANE</h2>
           <h3
             className="career-title text-lg md:text-xl"
             style={underlineStyle}
           >
-            Full Stack Developer
+            FULL STACK DEVELOPER
             <span style={underlineBorderStyle}></span>
           </h3>
+
+          
         
 
-      <h3>About Me</h3>
+      <h3>ABOUT ME</h3>
       <div className="about-text">
       
         <p>
