@@ -5,7 +5,10 @@ import {
   faCss3,
   faHtml5,
   faJs,
+  
 } from "@fortawesome/free-brands-svg-icons";
+
+import { SiNodedotjs, SiExpress, SiRedux, SiTypescript, SiTailwindcss, SiJest, SiVercel } from "react-icons/si";
 
 const spinKeyframes = `
   @keyframes spin {
@@ -22,6 +25,13 @@ function Skills(){
         css: false,
         html: false,
         js: false,
+        node: false,
+        express: false,
+        redux: false,
+        typescript: false,
+        tailwindcss: false,
+        jest: false,
+        vercel: false,
     })
 
     const iconStyle = (isHovered) => ({
@@ -43,8 +53,17 @@ function Skills(){
         display: 'flex',
         gap: '20px',
         justifyContent: 'center',
-        alignItems: 'center',
+        //alignItems: 'center',
         margin: '20px 0',
+        flexDirection: 'column',
+        //flexWrap: 'wrap',
+      };
+
+      const rowStyle = {
+        display: 'flex',
+        justifyContent: 'center',
+        gap: '20px',
+        marginBottom: '20px',
       };
 
     return (
@@ -52,6 +71,7 @@ function Skills(){
         <>
         <style>{spinKeyframes}</style>
         <div className="tech-icons" style={containerStyle}>
+          <div style={rowStyle}>
             <a
               href="https://reactjs.org/"
               target="_blank"
@@ -113,6 +133,73 @@ function Skills(){
                 onMouseLeave={() => handleMouseLeave('js')}
               />
             </a>
+            <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">
+          <SiNodedotjs
+            size="4rem"
+            color="#68A063"
+            style={iconStyle(hovered.node)}
+            onMouseEnter={() => handleMouseEnter('node')}
+            onMouseLeave={() => handleMouseLeave('node')}
+          />
+        </a>
+        </div>
+
+        <div style={rowStyle}>
+        <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
+          <SiExpress
+            size="4rem"
+            color="#000000"
+            style={iconStyle(hovered.express)}
+            onMouseEnter={() => handleMouseEnter('express')}
+            onMouseLeave={() => handleMouseLeave('express')}
+          />
+        </a>
+        <a href="https://redux.js.org/" target="_blank" rel="noopener noreferrer">
+          <SiRedux
+            size="4rem"
+            color="#764abc"
+            style={iconStyle(hovered.redux)}
+            onMouseEnter={() => handleMouseEnter('redux')}
+            onMouseLeave={() => handleMouseLeave('redux')}
+          />
+        </a>
+        <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">
+          <SiTypescript
+            size="4rem"
+            color="#3178c6"
+            style={iconStyle(hovered.typescript)}
+            onMouseEnter={() => handleMouseEnter('typescript')}
+            onMouseLeave={() => handleMouseLeave('typescript')}
+          />
+        </a>
+        <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">
+          <SiTailwindcss
+            size="4rem"
+            color="#38B2AC"
+            style={iconStyle(hovered.tailwindcss)}
+            onMouseEnter={() => handleMouseEnter('tailwindcss')}
+            onMouseLeave={() => handleMouseLeave('tailwindcss')}
+          />
+        </a>
+        <a href="https://jestjs.io/" target="_blank" rel="noopener noreferrer">
+          <SiJest
+            size="4rem"
+            color="#C21325"
+            style={iconStyle(hovered.jest)}
+            onMouseEnter={() => handleMouseEnter('jest')}
+            onMouseLeave={() => handleMouseLeave('jest')}
+          />
+        </a>
+        <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">
+          <SiVercel
+            size="4rem"
+            color="#000000"
+            style={iconStyle(hovered.vercel)}
+            onMouseEnter={() => handleMouseEnter('vercel')}
+            onMouseLeave={() => handleMouseLeave('vercel')}
+          />
+        </a>
+        </div>
           </div>
           </>
     );
