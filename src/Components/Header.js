@@ -14,7 +14,7 @@ const Header = () => {
             </nav>
             <div className="hero-content">
                 <h1 className="hero-title">KATY L. KANE</h1>
-                <h2 className="job-title">FULL STACK DEVELOPER</h2>
+                <h2 className="job-title">FRONT END DEVELOPER</h2>
             </div>
         </div>
     </section>

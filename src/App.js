@@ -2,16 +2,13 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import {FaEnvelope} from 'react-icons/fa';
-import { About, Header, Skills, Projects, Footer } from "./Components/index.js";
+import { About, Header, Skills, Projects, Footer, ScrollToTop } from "./Components/index.js";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
-        {/* <header className="App-header" data-testid="navbar">
-          <Navbar />
-        </header> */}
         <main>
           <div className="section" id="about" data-testid="about">
             <About />
@@ -90,7 +87,7 @@ function App() {
           <div className="section" id="footer">
             <Footer />
           </div>
-           
+           <ScrollToTop />
         </main>
       </div>
     </Router>

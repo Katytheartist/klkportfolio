@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
 
 
-      <div style={{ display: 'flex', gap: '20px', marginRight: '50px' }}>
+      <div style={{ display: 'flex', gap: '20px', marginRight: '100px' }}>
         <a
           href="https://github.com/Katytheartist"
           target="_blank"
