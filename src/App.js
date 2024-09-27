@@ -81,8 +81,8 @@ function App() {
             <h2 style={{ fontSize: '2.5em', marginBottom: '20px' }}>GET IN TOUCH</h2>
               <p style={{ fontSize: '1.75em', color: 'teal', display: 'flex', alignItems: 'center' }}>
                 <FaEnvelope style={{ marginRight: '20px'}} />
-                <a href="mailto:your-email@example.com" style={{ textDecoration: 'underline', color: 'teal' }}>
-                katytheartist@gmail.com
+                <a href="mailto:katythecoder@gmail.com" style={{ textDecoration: 'underline', color: 'teal' }}>
+                katythecoder@gmail.com
                 </a>
               </p>
           </div>
