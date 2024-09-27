@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 //import Navbar from './Components/Navbar';
-import { About, Header, Skills } from "./Components/index.js";
+import { About, Header, Skills, Projects } from "./Components/index.js";
 
 function App() {
   return (
@@ -26,16 +26,12 @@ function App() {
           </div>
 
           <div className="section" id="projects">
-            <h2 className="my-projects">
-              PROJECTS
-            </h2>
-            <div className="section" data-testid="carousel">
-
-            </div>
+            <h2 className="my-projects">PROJECTS</h2>
+            <Projects />
           </div>
           <div className="section" id="recommendations" data-testid="recommendations">
             <h2 className="recommendations">
-              RECOMMENDATIONS
+              RESUME
             </h2>
             
           </div>

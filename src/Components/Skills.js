@@ -54,7 +54,7 @@ function Skills(){
         gap: '20px',
         justifyContent: 'center',
         //alignItems: 'center',
-        margin: '20px 0',
+        margin: '60px 0 50px',
         flexDirection: 'column',
         //flexWrap: 'wrap',
       };

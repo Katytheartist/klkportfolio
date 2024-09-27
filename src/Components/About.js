@@ -46,7 +46,7 @@ function About() {
       <h3>ABOUT ME</h3>
       <div className="about-text">
       
-        <p>
+        <p style={{ fontSize: '18px'}}>
           I am a passionate Full Stack Web Developer with experience in both front-end and back-end technologies.
           I love creating interactive and user-friendly applications that solve real-world problems. 
 
@@ -72,5 +72,3 @@ function About() {
 }
 
 export default About;
-
-
