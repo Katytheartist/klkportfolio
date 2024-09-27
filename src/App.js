@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-//import Navbar from './Components/Navbar';
-import { About, Header, Skills, Projects } from "./Components/index.js";
+import {FaEnvelope} from 'react-icons/fa';
+import { About, Header, Skills, Projects, Footer } from "./Components/index.js";
 
 function App() {
   return (
@@ -75,11 +75,22 @@ function App() {
             <p style={{fontSize: '2rem'}}>^ GRAB A COPY ^</p>
           </div>
           </div>
-          <div className="section" id="contact" data-testid="contactForm">
-            Contact form here      
+          <div className="section" id="contact" data-testid="contactForm" 
+            style={{ textAlign: 'center', marginTop: '50px' }}>
+              <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '50px'}}>
+            <h2 style={{ fontSize: '2.5em', marginBottom: '20px' }}>GET IN TOUCH</h2>
+              <p style={{ fontSize: '1.75em', color: 'teal', display: 'flex', alignItems: 'center' }}>
+                <FaEnvelope style={{ marginRight: '20px'}} />
+                <a href="mailto:your-email@example.com" style={{ textDecoration: 'underline', color: 'teal' }}>
+                katytheartist@gmail.com
+                </a>
+              </p>
           </div>
-          Scroll btn?
-          Footter goes here 
+          </div>    
+          <div className="section" id="footer">
+            <Footer />
+          </div>
+           
         </main>
       </div>
     </Router>
