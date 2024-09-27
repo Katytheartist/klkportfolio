@@ -29,14 +29,51 @@ function App() {
             <h2 className="my-projects">PROJECTS</h2>
             <Projects />
           </div>
-          <div className="section" id="resume" data-testid="resume">
-            <h2 className="my-resume">
+          <div className="section" id="resume" data-testid="resume"
+          style={{
+            position: 'relative',
+            width: '100%',
+            height: '300px',
+            marginBottom: '20px',
+          }}
+          >
+          <div
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/bkcomp.jpg)`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            filter: 'blur(8px)',
+            width: '100%',
+            height: '100%',
+            position: 'absolute',
+            marginBottom: '20px',
+            top: 0,
+            bottom: 0,
+            zIndex: 0,
+          }}
+          />
+            <div 
+          style={{
+            position: 'relative',
+            zIndex: 1,  
+            display: 'flex',
+            flexDirection: 'column',  
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '100%',
+          }}
+  >
+            <h2 className="my-resume"
+            style={{
+             fontSize: '2.5em',
+             marginBottom: '10px',
+            }}>
              <a href={`${process.env.PUBLIC_URL}/KLK_Resume.pdf`} target='_blank' rel='noopener noreferrer'
-                style={{ marginLeft: '10px', fontSize: '1em', textDecoration: 'underline', color: 'blue'}}>
+                style={{ marginLeft: '10px', fontSize: '1em', textDecoration: 'underline', color: 'teal', }}>
                   RESUME
              </a>
             </h2>
-            
+            <p style={{fontSize: '2rem'}}>^ GRAB A COPY ^</p>
+          </div>
           </div>
           <div className="section" id="contact" data-testid="contactForm">
             Contact form here      

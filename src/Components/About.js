@@ -61,8 +61,8 @@ function About() {
           </p>
 
 
-          As a Full Stack Developer, I have honed my skills in React.js, Redux, Node.js, and PostgreSQL. I am proficient in Javascript, Html, Css and Python and I prefer backend work that allows me to develop new skills. I have built and enhanced several 
-          projects that showcase my ability to integrate complex features, keep reading to see examples of my work.
+          As a Full Stack Developer, I have honed my skills in React.js, Redux, Node.js, and PostgreSQL. I am proficient in JavaScript, HTML, CSS and Python and I prefer backend work that allows me to develop new skills. I have built and enhanced several 
+          projects that showcase my ability to integrate complex features; keep reading to see examples of my work.
         </p>
       </div>
     </div>
