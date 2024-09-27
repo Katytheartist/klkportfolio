@@ -18,7 +18,7 @@ function App() {
           </div>
 
           <div>
-            <h2 className="my-skills">
+            <h2 className="my-skills" id="skills">
             SKILLS
             </h2>
             <h3 className="my-technologies">SOME TECHNOLOGIES I HAVE WORKED WITH:</h3>
@@ -29,9 +29,12 @@ function App() {
             <h2 className="my-projects">PROJECTS</h2>
             <Projects />
           </div>
-          <div className="section" id="recommendations" data-testid="recommendations">
-            <h2 className="recommendations">
-              RESUME
+          <div className="section" id="resume" data-testid="resume">
+            <h2 className="my-resume">
+             <a href={`${process.env.PUBLIC_URL}/KLK_Resume.pdf`} target='_blank' rel='noopener noreferrer'
+                style={{ marginLeft: '10px', fontSize: '1em', textDecoration: 'underline', color: 'blue'}}>
+                  RESUME
+             </a>
             </h2>
             
           </div>
