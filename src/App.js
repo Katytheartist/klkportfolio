@@ -73,12 +73,12 @@ function App() {
           </div>
           </div>
           <div className="section" id="contact" data-testid="contactForm" 
-            style={{ textAlign: 'center', marginTop: '50px' }}>
+            style={{ textAlign: 'center', marginTop: '50px', marginBottom: '60px' }}>
               <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '50px'}}>
-            <h2 style={{ fontSize: '2.5em', marginBottom: '20px' }}>GET IN TOUCH</h2>
+            <h2 style={{ fontSize: '2.5em', marginBottom: '20px', color: 'teal' }}>GET IN TOUCH</h2>
               <p style={{ fontSize: '1.75em', color: 'teal', display: 'flex', alignItems: 'center' }}>
-                <FaEnvelope style={{ marginRight: '20px'}} />
-                <a href="mailto:katythecoder@gmail.com" style={{ textDecoration: 'underline', color: 'teal' }}>
+                <FaEnvelope style={{ marginRight: '25px'}} />
+                <a href="mailto:katythecoder@gmail.com" style={{ color: 'lightgray', textDecoration: 'underline', }}>
                 katythecoder@gmail.com
                 </a>
               </p>

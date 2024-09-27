@@ -19,7 +19,7 @@ const Footer = () => {
         <img
           src={process.env.PUBLIC_URL + '/KLKLogo.png'} 
           alt="logo"
-          style={{ width: '40px', height: '40px', marginRight: '40px' }}
+          style={{ width: '40px', height: '40px', marginRight: '40px', marginLeft: '100px' }}
         />
         <p style={{ fontSize: '1.2rem', margin: 0 }}>
           Katy L. Kane © {new Date().getFullYear()}
@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
 
 
-      <div style={{ display: 'flex', gap: '20px', marginRight: '100px' }}>
+      <div style={{ display: 'flex', gap: '20px', marginRight: '250px' }}>
         <a
           href="https://github.com/Katytheartist"
           target="_blank"
