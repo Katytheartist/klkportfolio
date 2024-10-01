@@ -53,10 +53,8 @@ function Skills(){
         display: 'flex',
         gap: '20px',
         justifyContent: 'center',
-        //alignItems: 'center',
         margin: '60px 0 50px',
         flexDirection: 'column',
-        //flexWrap: 'wrap',
       };
 
       const rowStyle = {
