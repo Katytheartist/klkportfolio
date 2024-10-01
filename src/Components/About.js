@@ -1,8 +1,6 @@
 import React from 'react';
 import './About.css'; 
 import klk1 from './pix/klk1.png';
-//import Skills from './Skills';
-
 
 function About() {
     const underlineStyle = {
