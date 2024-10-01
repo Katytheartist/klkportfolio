@@ -64,15 +64,19 @@ function App() {
              fontSize: '2.5em',
              marginBottom: '10px',
             }}>
-             <a href={`${process.env.PUBLIC_URL}/KLK_Resume.pdf`} target='_blank' rel='noopener noreferrer'
+             {/* <a href={`${process.env.PUBLIC_URL}/KLK_Resume.pdf`} target='_blank' rel='noopener noreferrer'
                 style={{ marginLeft: '10px', fontSize: '1em', textDecoration: 'underline', color: 'teal', }}>
                   RESUME
-             </a>
+             </a> */}
+             <a href={`${process.env.PUBLIC_URL}/resume.html`} target="_blank" rel="noopener noreferrer">
+    RESUME
+</a>
+
             </h2>
             <p style={{fontSize: '2rem'}}>^ GRAB A COPY ^</p>
           </div>
           </div>
-          <div className="section" id="contact" data-testid="contactForm" 
+          <div className="section" id="email" data-testid="emailAddress" 
             style={{ textAlign: 'center', marginTop: '50px', marginBottom: '60px' }}>
               <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '50px'}}>
             <h2 style={{ fontSize: '2.5em', marginBottom: '20px', color: 'teal' }}>GET IN TOUCH</h2>
