@@ -13,10 +13,9 @@
 
   .header-container {
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
     padding: 20px;
     position: relative;
   }
@@ -52,4 +51,17 @@
     font-weight: bold;
     text-align: center;
     margin-left: 180px;
+  }
+
+  @media (max-width: 768px) {
+    .hero {
+      height: auto;
+      background-size: contain;
+      width: 100vw;
+    }
+
+    .header-container {
+      width: 100vw;
+      justify-content: center;
+    }
   }
