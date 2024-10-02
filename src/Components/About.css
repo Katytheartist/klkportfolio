@@ -21,3 +21,19 @@
     font-weight: bold;
     text-align: justify;
   }
+
+  @media (maw-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .klk-photo {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .about-text-container {
+      width: 100%;
+    }
+  }
