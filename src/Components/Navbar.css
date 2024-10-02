@@ -7,6 +7,7 @@
     text-align: left;
     border-radius: 20px;
     margin-left: 10px;
+    box-sizing: border-box;
   }
   
   .navbar-logo a {

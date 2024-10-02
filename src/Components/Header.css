@@ -2,6 +2,7 @@
     background-image: url('./pix/colorful-2174045_1280.png'); 
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 500px; 
     width: 100vw;
     display: flex;
