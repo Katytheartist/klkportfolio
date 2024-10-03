@@ -37,3 +37,17 @@
     color: pink
   }
   
+  @media (max-width: 768px) {
+    .navbar {
+      overflow-x: hidden;
+      left: 0;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .navbar-links {
+      margin: 0;
+      padding: 10px 0;
+      text-align: center;
+    }
+  }
