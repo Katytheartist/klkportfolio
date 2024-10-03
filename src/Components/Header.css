@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 500px; 
-    width: 100% ;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,8 +62,13 @@
       width: 100%;
     }
 
-    .header-container {
-      width: 100%;
-
+    .hero-title {
+      font-size: 3rem;
     }
+
+    .job-title {
+      font-size: 1.5rem;
+    }
+
+
   }
