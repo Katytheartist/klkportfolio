@@ -56,13 +56,14 @@
     margin-left: 180px;
   }
 
-  @media (max-width: 1080px) {
+  @media (max-width: 768px) {
     .hero {
       height: 100vh;
       width: 100vw;
       background-size: cover;
       margin: 0;
       padding: 0;
+      background-position: center;
     }
 
     .hero-title {
