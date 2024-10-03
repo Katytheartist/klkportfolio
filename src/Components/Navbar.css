@@ -37,13 +37,12 @@
     color: pink
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 1080px) {
     .navbar {
       overflow-x: hidden;
       left: 0;
       padding: 10px;
       box-sizing: border-box;
-      width: 100vw;
     }
 
     .navbar-links {

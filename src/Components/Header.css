@@ -55,7 +55,7 @@
     margin-left: 180px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1080px) {
     .hero {
       height: auto;
       background-size: cover;
