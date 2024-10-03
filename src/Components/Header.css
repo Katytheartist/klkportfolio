@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 500px; 
-    width: 100vw;
+    width: 100% 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,11 +59,11 @@
     .hero {
       height: auto;
       background-size: contain;
-      width: 100vw;
+      width: 100%;
     }
 
     .header-container {
-      width: 100vw;
+      width: 100%;
       justify-content: center;
     }
   }
