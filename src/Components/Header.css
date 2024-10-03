@@ -5,12 +5,15 @@
     background-repeat: no-repeat;
     height: 500px; 
     width: 100vw;
-    
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    left: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .header-container {
