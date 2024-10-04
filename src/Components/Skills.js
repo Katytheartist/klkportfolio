@@ -64,6 +64,7 @@ function Skills(){
         marginBottom: '20px',
         marginRight: '10px',
         marginLeft: '10px',
+        padding: '10px',
       };
 
     return (
