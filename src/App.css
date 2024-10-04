@@ -29,7 +29,7 @@ body {
 .klk-photo {
   max-width: 80%;
   margin-bottom: 20px;
-  margin-right: 10px;
+  margin-right: 25px;
 }
 
 body, html {
@@ -62,7 +62,7 @@ body, html {
 .about-text-container {
   width: 100%;
   max-width: 100%;
-  margin-right: 20px;
+  margin: 10px 25px 10px 12px;
   padding: 10px;
   justify-content: center;
   overflow-wrap: break-word;
@@ -73,5 +73,6 @@ body, html {
   margin: 0 20px;
   max-width: 80%;
   box-sizing: border-box;
+  size: 2x;
 }
 }
