@@ -68,4 +68,10 @@ body, html {
   overflow-wrap: break-word;
 }
 
+.tech-icons {
+  padding: 20px;
+  margin: 0 20px;
+  max-width: 80%;
+  box-sizing: border-box;
+}
 }
