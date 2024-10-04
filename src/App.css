@@ -62,8 +62,9 @@ body, html {
 .about-text-container {
   width: 100%;
   max-width: 100%;
-  margin-right: 10px;
+  margin-right: 20px;
   padding: 10px;
+  justify-content: center;
 }
 
 }
