@@ -11,7 +11,7 @@
   
   .klk-photo {
     width: 100%;
-    max-width: 75%;
+    max-width: 400px;
     height: auto;
     border-radius: 12px;
     border: solid salmon 10px;
@@ -20,7 +20,7 @@
   
   .about-text-container {
     flex: 1;
-    max-width: 50%;
+    max-width: 60%;
     color:rgb(14, 13, 11);
     font-size: 1.07rem;
     font-weight: bold;
@@ -40,10 +40,12 @@
     .klk-photo {
       max-width: 100%;
       margin-bottom: 20px;
+      margin-right: 10px;
     }
 
     .about-text-container {
       width: 100%;
       max-width: 100%;
+      margin-right: 10px;
     }
   }

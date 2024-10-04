@@ -53,7 +53,7 @@ function Skills(){
         display: 'flex',
         gap: '20px',
         justifyContent: 'center',
-        margin: '60px 0 50px',
+        margin: '60px 10px 50px 10px',
         flexDirection: 'column',
       };
 
