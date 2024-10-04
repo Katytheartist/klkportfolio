@@ -49,19 +49,19 @@ body, html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
   min-height: 100vh;
 }
 
 .container {
-  max-width: 100%;
+  max-width: 90%;
   margin: 0;
   padding: 0;
 }
 
 .about-text-container {
-  width: 100%;
-  max-width: 100%;
+
+  max-width: 80%;
   margin: 10px 25px 10px 12px;
   padding: 10px;
   justify-content: center;
@@ -71,7 +71,8 @@ body, html {
 .tech-icons {
   padding: 20px;
   margin: 0 20px;
-  max-width: 80%;
+  max-width: 70%;
+  height: auto;
   box-sizing: border-box;
   size: 2x;
 }
