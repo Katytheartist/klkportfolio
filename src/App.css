@@ -54,9 +54,11 @@ body, html {
 }
 
 .container {
-  max-width: 90%;
-  margin: 0;
-  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
 .about-text-container {
