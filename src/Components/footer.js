@@ -12,9 +12,16 @@ const Footer = () => {
         position: "relative",
         width: "100%",
         bottom: "0",
+        flexWrap: "wrap",
       }}
     >
-      <div style={{ display: "flex", alignItems: "center" }}>
+      <div 
+        style={{ 
+          display: "flex", 
+          alignItems: "center",
+          flexDirection: "row",
+          
+      }}>
         <img
           src={process.env.PUBLIC_URL + "/KLKLogo.png"}
           alt="logo"
@@ -35,6 +42,7 @@ const Footer = () => {
         style={{ 
           display: "flex", 
           gap: "20px",
+          justifyContent: "center",
           flexDirection: "row", 
           marginRight: "250px" }}>
         <a
@@ -71,10 +79,12 @@ const Footer = () => {
             footer {
               flex-direction: column; /* Stack vertically on mobile */
               text-align: center;
-              
+              align-items: center;
             }
             .icon-group {
-              flex-direction: column;
+              flex-direction: row;
+              justify-content: center;
+              margin-bottom: 10px;
             }
             footer div {
               margin-bottom: 15px;
