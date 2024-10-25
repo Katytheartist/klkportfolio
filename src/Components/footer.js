@@ -30,7 +30,13 @@ const Footer = () => {
         </p>
       </div>
 
-      <div style={{ display: "flex", gap: "20px", marginRight: "250px" }}>
+      <div 
+        className='icon-group'
+        style={{ 
+          display: "flex", 
+          gap: "20px",
+          flexDirection: "row", 
+          marginRight: "250px" }}>
         <a
           href="https://github.com/Katytheartist"
           target="_blank"
@@ -65,7 +71,10 @@ const Footer = () => {
             footer {
               flex-direction: column; /* Stack vertically on mobile */
               text-align: center;
-              justify-content: space-between;
+              
+            }
+            .icon-group {
+              flex-direction: column;
             }
             footer div {
               margin-bottom: 15px;
