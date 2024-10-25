@@ -77,7 +77,7 @@ const Footer = () => {
         {`
           @media (max-width: 768px) {
             footer {
-              flex-direction: column; /* Stack vertically on mobile */
+              flex-direction: column; 
               text-align: center;
               align-items: center;
             }
@@ -88,6 +88,12 @@ const Footer = () => {
             }
             footer div {
               margin-bottom: 15px;
+            }
+            footer div img {
+              margin-left: 0; /* Remove margin on the left side */
+            }
+            footer div.icon-group {
+              margin-right: 0; /* Remove right margin on the icon group */
             }
           }
         `}
