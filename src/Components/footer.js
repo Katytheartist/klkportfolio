@@ -59,6 +59,20 @@ const Footer = () => {
           <FaGraduationCap />
         </a>
       </div>
+      <style>
+        {`
+          @media (max-width: 768px) {
+            footer {
+              flex-direction: column; /* Stack vertically on mobile */
+              text-align: center;
+              justify-content: space-between;
+            }
+            footer div {
+              margin-bottom: 15px;
+            }
+          }
+        `}
+      </style>
     </footer>
   );
 };
