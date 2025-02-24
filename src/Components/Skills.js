@@ -59,6 +59,7 @@ function Skills(){
 
       const rowStyle = {
         display: 'flex',
+        flexWrap: 'wrap',
         justifyContent: 'center',
         gap: '20px',
         marginBottom: '20px',
@@ -82,7 +83,7 @@ function Skills(){
                 icon={faReact}
                 className="icon"
                 title="react"
-                size="4x"
+                size={window.innerWidth > 768 ? "4x" : "3x"} 
                 color="#61DBFB"
                 style={iconStyle(hovered.react)}
                 onMouseEnter={() => handleMouseEnter('react')}
@@ -97,7 +98,7 @@ function Skills(){
               <FontAwesomeIcon
                 icon={faCss3}
                 className="css-icon"
-                size="4x"
+                size={window.innerWidth > 768 ? "4x" : "3x"} 
                 color="#264de4"
                 style={iconStyle(hovered.css)}
                 onMouseEnter={() => handleMouseEnter('css')}
@@ -112,7 +113,7 @@ function Skills(){
               <FontAwesomeIcon
                 icon={faHtml5}
                 className="html-icon"
-                size="4x"
+                size={window.innerWidth > 768 ? "4x" : "3x"} 
                 color="#e34c26"
                 style={iconStyle(hovered.html)}
                 onMouseEnter={() => handleMouseEnter('html')}
@@ -127,7 +128,7 @@ function Skills(){
               <FontAwesomeIcon
                 icon={faJs}
                 className="js-icon"
-                size="4x"
+                size={window.innerWidth > 768 ? "4x" : "3x"} 
                 color="#f0db4f"
                 style={iconStyle(hovered.js)}
                 onMouseEnter={() => handleMouseEnter('js')}

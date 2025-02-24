@@ -4,9 +4,11 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    margin: 20px;
+    margin: 0 auto;
     flex-wrap: wrap;
-    width: 100vw;
+    max-width: 80vw;
+    padding: 1rem;
+    overflow: hidden;
   }
   
   .klk-photo {
